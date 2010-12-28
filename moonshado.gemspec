@@ -7,8 +7,8 @@ Gem::Specification.new do |s|
   s.version     = Moonshado::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Jerry Richardson"]
-  s.email       = ["jerry@disruptiveventures.com"]
-  s.homepage    = "http://rubygems.org/gems/moonshado"
+  s.email       = ["jerry@disruptive.it"]
+  s.homepage    = "http://moonshado.github.com/"
   s.summary     = %q{Utilize the Moonshado REST API for SMS}
   s.description = %q{SMS needn't make you teary. Use Moonshado's REST API through this handy gem.}
 
