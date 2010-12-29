@@ -1,3 +1,1 @@
-module Moonshado
-  # Your code goes here...
-end
+require 'moonshado/message'

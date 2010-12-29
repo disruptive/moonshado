@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.email       = ["jerry@disruptive.it"]
   s.homepage    = "http://moonshado.github.com/"
   s.summary     = %q{Utilize the Moonshado REST API for SMS}
-  s.description = %q{SMS needn't make you teary. Use Moonshado's REST API through this handy gem.}
+  s.description = %q{SMS needn't make you teary. Use Moonshado's REST API through this handy rails engine.}
 
   s.rubyforge_project = "moonshado"
 

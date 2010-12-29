@@ -1,0 +1,1 @@
+Engine for SMS Messaging using the [Moonshado](http://moonshado.com/) API.
