@@ -1,0 +1,7 @@
+<h2>Inbound Messages</h2>
+<%= render :partial => '/moonshado/messages/message', :collection => @inbound %>
+
+<h2>Outbound Messages</h2>
+<%= render :partial => '/moonshado/messages/message', :collection => @outbound %>
+
+<%= link_to "Send Message", new_message_path %>

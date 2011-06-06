@@ -1,0 +1,13 @@
+<% form_for @message do |f| -%>
+  <p>
+		<%= f.label :to, "To" %><br>
+		<%= f.text_field :to 	%>
+	</p>
+	<p>
+		<%= f.label :body, "Message" %><br>
+		<%= f.text_area :body %>
+	</p>
+	<p>
+		<%= f.submit "Send", :disable_with => 'Sending...' %>
+	</p>
+<% end -%>

@@ -1,0 +1,29 @@
+<p><strong>To:</strong><br>
+<%= @message.to %></p>
+
+<p><strong>From:</strong><br>
+<%= @message.from %></p>
+
+<p><strong>Message:</strong><br>
+<%= @message.body %></p>
+
+<p><strong>Sent at:</strong><br>
+<%= @message.sent_at %></p>
+
+
+<pre>
+Response Code: <%= @message.response_code %>
+Response: <%= @message.response %>
+Status Code: <%= @message.status_code %>
+Status: <%= @message.status %>
+Status Detail: <%= @message.status_detail %>
+Carrier: <%= @message.carrier %>
+Short Code: <%= @message.shortcode %>
+Parent ID: <%= @message.parent_id %>
+Country: <%= @message.country %>
+Status: <%= @message.status %>
+TTL: <%= @message.ttl %>
+Shorten: <%= @message.shorten %>
+</pre>
+
+<%= link_to "Messages", messages_path %>

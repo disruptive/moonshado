@@ -4,6 +4,15 @@ require "moonshado/version"
 
 Gem::Specification.new do |s|
   s.name        = "moonshado"
+  
+  s.add_development_dependency 'rspec', '~> 2.6'
+  s.add_development_dependency 'simplecov', '~> 0.4'
+  s.add_development_dependency 'webmock', '~> 1.6'
+  s.add_development_dependency 'ZenTest', '~> 4.5'
+    
+  s.add_dependency('httparty', '>= 0.7.0')
+  s.add_dependency('rails', '>= 3.0.1')
+  
   s.version     = Moonshado::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Jerry Richardson"]
@@ -18,7 +27,5 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
-  s.add_dependency('httparty', '>= 0.7.0')
-  s.add_development_dependency('rspec')
   s.requirements << 'A Moonshado Account'
 end

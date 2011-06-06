@@ -8,8 +8,15 @@ class MoonshadoCreateMessages < ActiveRecord::Migration
       t.string   :ttl
       t.boolean  :shorten, :default => false
       t.datetime :sent_at
+      t.integer  :sub_id
       t.integer  :response_code
       t.integer  :status_code
+      t.string   :carrier
+      t.integer  :shortcode
+      t.integer  :parent_id
+      t.string   :country
+      t.string   :status
+      t.datetime :read_at
       t.timestamps
     end
 
@@ -22,3 +29,4 @@ class MoonshadoCreateMessages < ActiveRecord::Migration
     drop_table :messages
   end
 end
+

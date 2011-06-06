@@ -1,5 +1,5 @@
 class MoonshadoFeaturesGenerator < Rails::Generators::Base
-  desc "Put the clearance features in place"
+  desc "Put the features in place"
 
   def self.source_root
     @_moonshado_source_root ||= File.join(File.dirname(__FILE__), "moonshado_features_templates")
